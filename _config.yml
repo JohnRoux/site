@@ -1,1 +1,17 @@
+title: ZATech Slack
+description: > # this means to ignore newlines until "baseurl:"
+  A community for those working in and around the South African tech
+  community to connect & interact.
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "" # the base hostname & protocol for your site, e.g. http://example.com
+#twitter_username: zatech
+github_username:  zatech
+
+# Build settings
+markdown: kramdown
 theme: jekyll-theme-minimal
+gems:
+  - jekyll-feed
+exclude:
+  - Gemfile
+  - Gemfile.lock
